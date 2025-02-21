@@ -1,6 +1,7 @@
 package com.example.fragm_fruta
 
 import android.os.Bundle
+import android.view.View
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -17,5 +18,9 @@ class MainActivity : AppCompatActivity() {
             insets
         }
         //este es un comentario random
+
+    }
+    fun prueba(v: View){
+
     }
 }
